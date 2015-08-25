@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project_1</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style_main.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+<!-----------------------------------Hidden-XS----------------------------->
+<div class="hidden-xs">
+    <div class="header">
+        <div class="header_top">
+            <div class="container">
+                <!-------------------CUSTOM CARE------------------->
+                <div class="header_top_left col-sm-8 col-md-9 col-ld-9">
+                    <p>customer care : 0-888-00-00</p>
+                </div>
+                <!------------------CUSTOM CARE END---------------->
+                <div class="header_top_right col-sm-4 col-md-3 col-ld-3">
+                    <!-----------------MONEYSWITCHER--------------->
+                    <div id="money" class="col-sm-4 col-md-4 col-ld-4">
+                        <div class="btn-group">
+                            <button id="money_btn" data-toggle="dropdown" class="btn btn-default dropdown-toggle"><h6> $
+                                US <i class="fa fa-caret-down"></i></h6></button>
+                            <ul id="ul_money" class="dropdown-menu bullet">
+                                <li>
+                                    <input type="radio" id="ex1_1" name="ex1" value="1" checked>
+                                    <label for="ex1_1"><h6>$ US</h6></label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="ex1_2" name="ex1" value="2">
+                                    <label for="ex1_2"><h6>€ EUR</h6></label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="ex1_3" name="ex1" value="3">
+                                    <label for="ex1_3"><h6>¥ CNY</h6></label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-----------------MONEYSWITCHER END-------------->
+                    <!--------------------ACCOUNT-------------------->
+                    <div id="account" class="col-sm-6 col-md-6 col-ld-6"><h6><i class="fa fa-user"></i>
+                        Account</h6>
+                    </div>
+                    <!------------------ACCOUNT END---------------------->
+                    <!-------------------SRC--------------------->
+                    <div id="src_header" class="col-sm-2 col-md-2 col-ld-2"><h6><i class="fa fa-search"></i>
+                    </h6>
+                    </div>
+                    <!-------------------SRC END--------------------->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="navigation" class="container hidden-xs">
+    <div class="row">
+        <!----------------------------------LOGO--------------------------->
+        <div id="logo_ld" class="col-sm-3 col-md-1 col-ld-2">
+            <div class="logo">
+                <a href="#">
+                    <img src="img/logo.png" alt="Lookshop">
+                </a>
+            </div>
+        </div>
+        <!------------------------------LOGO END------------------------>
+        <!-------------------NAVIGATOR--------------------->
+        <div id="navigator_ld" class="col-sm-9 col-md-6 col-ld-8 hidden-xs">
+            <ul class="nav nav-pills">
+                <li role="presentation" class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                       aria-expanded="false">
+                        New <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><i class="fa fa-star"></i> New's Content</li>
+                        <li><i class="fa fa-star"></i> New's Content</li>
+                        <li><i class="fa fa-star"></i> New's Content</li>
+                    </ul>
+                </li>
+                <li role="presentation" class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                       aria-expanded="false">
+                        Designers <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><i class="fa fa-diamond"></i> Designer's Content</li>
+                        <li><i class="fa fa-diamond"></i> Designer's Content</li>
+                        <li><i class="fa fa-diamond"></i> Designer's Content</li>
+                    </ul>
+                </li>
+                <li role="presentation" class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                       aria-expanded="false">
+                        Women <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><i class="fa fa-female"></i> Women's Content</li>
+                        <li><i class="fa fa-female"></i> Women's Content</li>
+                        <li><i class="fa fa-female"></i> Women's Content</li>
+                    </ul>
+                </li>
+                <li role="presentation" class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                       aria-expanded="false">
+                        Men <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><i class="fa fa-male"></i> Men's Content</li>
+                        <li><i class="fa fa-male"></i> Men's Content</li>
+                        <li><i class="fa fa-male"></i> Men's Content</li>
+                    </ul>
+                </li>
+                <li role="presentation" class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                       aria-expanded="false">
+                        Clearence <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><i class="fa fa-calculator"></i> Clearence's Content</li>
+                        <li><i class="fa fa-calculator"></i> Clearence's Content</li>
+                        <li><i class="fa fa-calculator"></i> Clearence's Content</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-----------------NAVIGATOR END----------------------->
+        <!----------------SHOP-CARD--------------------------->
+        <div class="col-sm-12 col-md-3 col-ld-2 hidden-xs">
+            <div class="shopping_cart">
+                <div id="shopping_cart_inner" class="row">
+                    <div class="col-sm-10 col-md-10 col-ld-10 your_cart">Your cart</div>
+                    <div class="col-sm-2 col-md-2 col-ld-2 caret_cart"><i class="fa fa-caret-down"></i></div>
+                </div>
+                <div class="shopping_bag">
+                    <div id="shopping_bag_inner" class="row">
+                        <div class="col-sm-2 col-md-2 col-ld-2 bag"><img src="img/basket.png" alt="basket"></div>
+                        <div class="col-sm-10 col-md-10 col-ld-10 bag_items"> 0 Items | $ 0</div>
+                    </div>
+                </div>
+            </div>
+            <!----------------SHOP-CARD END--------------------------->
+        </div>
+    </div>
+</div>
+<!---------------------------------------Visible-XS ---------------------------------------------->
+<div class="visible-xs">
+    <!----------------CUSTOM CARE------------------------>
+    <div id="customcare" class="col-xs-12">
+        <div class="header">
+            <div id="customcare-inner" class="header_top">
+                <p>customer care : 0-888-00-00</p>
+            </div>
+        </div>
+    </div>
+    <!----------------CUSTOM CARE END------------------------>
+    <div class="col-xs-12">
+        <div id="header_black" class="row container-fluid">
+            <!-----------------MONEYSWITCHER----------------------->
+            <div id="money_xs" class="col-xs-3">
+                <div class="btn-group">
+                    <button id="money_btn_xs" data-toggle="dropdown" class="btn btn-default dropdown-toggle"><h5> $US <i
+                            class="fa fa-caret-down"></i></h5></button>
+                    <ul id="ul_money_xs" class="dropdown-menu bullet">
+                        <li>
+                            <input type="radio" id="ex2_1" name="ex1" value="1" checked>
+                            <label for="ex2_1"><h5>$ US</h5></label>
+                        </li>
+                        <li>
+                            <input type="radio" id="ex2_2" name="ex1" value="2">
+                            <label for="ex2_2"><h5>€ EUR</h5></label>
+                        </li>
+                        <li>
+                            <input type="radio" id="ex2_3" name="ex1" value="3">
+                            <label for="ex2_3"><h5>¥ CNY</h5></label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!---------------MONEYSWITCHER END------------------------->
+            <!------------------ACCOUNT---------------------->
+            <div id="account_xs" class="col-xs-6">
+                <div id="account_inner_xs" class="col-sm-6 col-md-6 col-ld-6"><h5><i class="fa fa-user"></i> Account
+                </h5></div>
+            </div>
+            <!------------------ACCOUNT END---------------------->
+            <!---------------SCR------------------------->
+            <div id="src_xs" class="col-xs-3">
+                <div id="src_header_xs" class="col-sm-2 col-md-2 col-ld-2"><h5><i class="fa fa-search"></i></h5>
+                </div>
+            </div>
+            shopping_bag
+            <!---------------SRC END------------------------->
+        </div>
+    </div>
+</div>
+<div id="navigator_xs" class="visible-xs">
+    <div class="container">
+        <div id="logo_xs"><img src="img/logo.png" alt="logo"></div>
+        <!-------SHOP-CART-xs--------->
+        <div id="shopping_bag_xs">
+            <div class="shopping_bag_xs">
+                <div id="shopping_bag_inner_xs" class="row">
+                    <div class="col-xs-2 bag_xs"><h3><img src="img/basket.png" alt="basket"></h3></div>
+                    <div class="col-xs-10 bag_items_xs"><h3>0 Items | $ 0</h3></div>
+                </div>
+            </div>
+        </div>
+        <!---------MENU-xs---------->
+        <div id="munu_xs">
+            <nav class="navbar navbar-default menu_xs">
+                <div class="container">
+                    <div class="navbar navbar_xs">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">MENU</a>
+                    </div>
+                    <div id="navbar" class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">New</a></li>
+                            <li><a href="#">Designers</a></li>
+                            <li><a href="#">Women</a></li>
+                            <li><a href="#">Men</a></li>
+                            <li><a href="#">Clearence</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/user_botton.js"></script>
+</body>
+</html>
